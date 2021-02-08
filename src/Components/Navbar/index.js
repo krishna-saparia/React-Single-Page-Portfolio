@@ -30,26 +30,26 @@ const Navbar = ({toggle}) => {
         <IconContext.Provider value={{ color: '#fff'}}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>Krishna Saparia</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>.is()</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                        <NavMenu>
                            <NavItem>
                                <NavLinks to='about'
-                               smooth={true} duration={500} spy={true} exact='true' offset= {-80}> About </NavLinks>
+                               smooth={true} duration={500} spy={true} exact='true' offset= {-80}> .about() </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to='discover'
-                                smooth={true} duration={500} spy={true} exact='true' offset= {-80}> Resumes </NavLinks>
+                                <NavLinks to='resume'
+                                smooth={true} duration={500} spy={true} exact='true' offset= {-80}> .toResume() </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to='services'
-                                smooth={true} duration={500} spy={true} exact='true' offset= {-80}> Projects </NavLinks>
+                                <NavLinks to='projects'
+                                smooth={true} duration={500} spy={true} exact='true' offset= {-80}> .toProjects() </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to='signup'
-                                smooth={true} duration={500} spy={true} exact='true' offset= {-80}> Education </NavLinks>
+                                smooth={true} duration={500} spy={true} exact='true' offset= {-80}> .education() </NavLinks>
                             </NavItem>
                        </NavMenu>
                         {/* <NavBtn>

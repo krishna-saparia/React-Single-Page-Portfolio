@@ -1,4 +1,4 @@
-import svg1 from '../../images/svg1.svg';
+import svg8 from '../../images/svg8.svg';
 import svg2 from '../../images/svg2.svg';
 import svg3 from '../../images/svg3.svg';
 import svg4 from '../../images/svg4.svg';
@@ -8,20 +8,20 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDec: true,
-    topLine: "Premium Bank",
-    headLine: 'Unlimited Transaction with zero fees.',
-    description: 'Get access to our exclusive app that allows you to send unlimited transaction without getting charged any fees.',
+    topLine: "student.webDev()",
+    headLine: 'I\'m a Student and learner..... ',
+    description: 'Developing Skills for Full Stack Developer, \n With experience of working on ReactJs, Angular and spring boot frameworks. ',
     buttonLabel: 'Get Started',
     imgStart: false,
-    img: svg1,
-    alt: 'Car',
+    img: svg8,
+    alt: 'about',
     dark: true,
     primary: true,
     darkText: false
 };
 
 export const homeObjTwo = {
-    id: 'discover',
+    id: 'resume',
     lightBg: true,
     lightText: false,
     lightTextDec: false,

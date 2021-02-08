@@ -51,8 +51,8 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-    color: #01bf71;
-    font-size: 16px;
+    color: #773db4;
+    font-size: 32px;
     line-height: 16px;
     font-weight: 700;
     latter-spacing: 1.4px;
@@ -61,7 +61,7 @@ export const TopLine = styled.div`
 `;
 
 export const Heading = styled.h1`
-    color: ${({lightText}) => (lightText ? '#f7f8a' : '#010606')};
+    color: ${({lightText}) => (lightText ? '#f7f8a0' : '#010606')};
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
@@ -86,7 +86,7 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 400px;
     height: 100%;
 `
 

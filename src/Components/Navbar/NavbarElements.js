@@ -4,7 +4,7 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
+    background: ${({scrollNav}) => (scrollNav ? '#000' : '#010606')};
     height: 80px;
     margin-top:-80px;
     display: flex;
@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
     `;
 
 export const NavLogo = styled(LinkR)`
-   color: #fff;
+   color: #773db4 ;
    justify-self: flex-start;
    cursor: pointer;
    font-size: 1.5rem;
