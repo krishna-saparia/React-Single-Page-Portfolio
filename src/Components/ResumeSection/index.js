@@ -28,9 +28,9 @@ const Resume = ({lightBg, imgStart, topLine, lightText, headLine, darkText, desc
                         <BtnWrap>
                             {/* <a href = "https://drive.google.com/file/d/1DnW8haKxM1taAdk5hFdLoYWTiWZ_tDvl/view?usp=sharing" target="mynewtab"> */}
                             <Button to='resume'
-                            smooth="true"
+                            smooth={true}
                             duration={500}
-                            spy="true"
+                            spy={true}
                             exact="true"
                             offset={-80}
                             primary={primary ? 1 : 0}

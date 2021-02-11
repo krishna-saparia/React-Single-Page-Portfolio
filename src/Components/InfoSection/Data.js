@@ -9,7 +9,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDec: true,
     topLine: "student.webDev()",
-    headLine: 'I\'m a Student and learner..... ',
+    headLine: 'I\'m a Student of computer science ',
     description: 'Developing Skills for Full Stack Developer, \n With experience of working on ReactJs, Angular and spring boot frameworks; Build Games and AR app using Unity. ',
     buttonLabel: 'Click .toResume()',
     imgStart: false,

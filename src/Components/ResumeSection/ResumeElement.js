@@ -97,8 +97,6 @@ export const Img = styled.img`
     padding-right: 0;
 `;
 
-
-
 export const Button = styled(Link)`
     border-radius: 50px;
     background: ${({primary}) => (primary ? '#01BF71' : '#010606')};
