@@ -6,6 +6,7 @@ import Services from '../Components/Services';
 // import { BrowserRouter as Router } from 'react-router-dom'
 import Navbar from '../Components/Navbar';
 import Sidebar from '../Components/Sidebar';
+import Resume from '../Components/ResumeSection';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,8 @@ const Home = () => {
          <Navbar toggle={toggle}/>
          <HeroSection />
          <InfoSection {...homeObjOne}/>
-         <InfoSection {...homeObjTwo}/>
+         {/* <InfoSection {...homeObjTwo}/> */}
+         <Resume/>
          {/* <InfoSection {...homeObjThree}/> */}
          <Services />
          <InfoSection {...homeObjThree}/>

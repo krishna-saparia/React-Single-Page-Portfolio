@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon1 from '../../images/svg1.svg';
-import Icon2 from '../../images/svg2.svg';
-import Icon3 from '../../images/svg3.svg';
+import AR from '../../images/AR.svg';
+import game from '../../images/game.svg';
+import employee from '../../images/employee.svg';
 
 import {
     ServiceContainer,
@@ -19,19 +19,19 @@ const Services = () => {
              <ServicesH1>Our Services</ServicesH1>
              <ServicesWrapper>
                  <ServicesCard>
-                     <ServicesIcon src= {Icon1}/>
-                     <ServicesH2>Reduce Expenses</ServicesH2>
-                     <ServicesP> We help reduce your fees and increase your overall revenue.</ServicesP> 
+                     <ServicesIcon src= {AR}/>
+                     <ServicesH2>Creates 3D Virtual Plan </ServicesH2>
+                     <ServicesP> Markerbased AR app built on Unity and Vuforia.</ServicesP> 
                  </ServicesCard>
                  <ServicesCard>
-                     <ServicesIcon src= {Icon2}/>
-                     <ServicesH2>Virtual Offices </ServicesH2>
-                     <ServicesP> You can access our platform online from anywhere.</ServicesP> 
+                     <ServicesIcon src= {game}/>
+                     <ServicesH2>The Injured Pilot </ServicesH2>
+                     <ServicesP> Developed 2D Game Using Unity 2019.</ServicesP> 
                  </ServicesCard>
                  <ServicesCard>
-                     <ServicesIcon src= {Icon3}/>
-                     <ServicesH2>Premium Benefits</ServicesH2>
-                     <ServicesP> Unlock our special membershipp card that returns 5%.</ServicesP> 
+                     <ServicesIcon src= {employee}/>
+                     <ServicesH2>Employee manager Web app</ServicesH2>
+                     <ServicesP> Created using angular 10 and spring boot as backend to handle database.</ServicesP> 
                  </ServicesCard>
              </ServicesWrapper>
          </ServiceContainer>   

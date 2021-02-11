@@ -1,5 +1,5 @@
 import svg8 from '../../images/svg8.svg';
-import svg2 from '../../images/svg2.svg';
+import svg10 from '../../images/svg10.svg';
 import svg3 from '../../images/svg3.svg';
 import svg4 from '../../images/svg4.svg';
 
@@ -10,8 +10,8 @@ export const homeObjOne = {
     lightTextDec: true,
     topLine: "student.webDev()",
     headLine: 'I\'m a Student and learner..... ',
-    description: 'Developing Skills for Full Stack Developer, \n With experience of working on ReactJs, Angular and spring boot frameworks. ',
-    buttonLabel: 'Get Started',
+    description: 'Developing Skills for Full Stack Developer, \n With experience of working on ReactJs, Angular and spring boot frameworks; Build Games and AR app using Unity. ',
+    buttonLabel: 'Click .toResume()',
     imgStart: false,
     img: svg8,
     alt: 'about',
@@ -25,16 +25,16 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDec: false,
-    topLine: 'Unlimited Access',
-    headLine: 'Unlimited Transaction with zero fees.',
-    description: 'Get access to our exclusive app that allows you to send unlimited transaction without getting charged any fees.',
-    buttonLabel: 'Learn More',
+    topLine: 'resume();',
+    headLine: 'Download Resume',
+    description: '',
+    buttonLabel: 'Download',
     imgStart: true,
-    img: svg2,
-    alt: 'Piggy Bank',
+    img: svg10,
+    alt: 'resume',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
 };
 
 // export const homeObjThree = {
