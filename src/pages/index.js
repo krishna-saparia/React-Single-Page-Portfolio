@@ -8,6 +8,7 @@ import Navbar from '../Components/Navbar';
 import Sidebar from '../Components/Sidebar';
 import Resume from '../Components/ResumeSection';
 import Skills from '../Components/Skills';
+import SkillComp from '../Components/SkillComp'
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -15,11 +16,11 @@ const Home = () => {
         setIsOpen(!isOpen);
     }
 
-    const testData = [
-        { bgcolor: "#6a1b9a", completed: 60 },
-        { bgcolor: "#00695c", completed: 30 },
-        { bgcolor: "#ef6c00", completed: 53 },
-      ];
+    // const testData = [
+    //     { bgcolor: "#6a1b9a", completed: 60 },
+    //     { bgcolor: "#00695c", completed: 30 },
+    //     { bgcolor: "#ef6c00", completed: 53 },
+    //   ];
     return (
         <>
          <Sidebar isOpen={isOpen} toggle = {toggle} />   
@@ -30,6 +31,7 @@ const Home = () => {
          <Resume/>
          {/* <InfoSection {...homeObjThree}/> */}
          <Services />
+         <SkillComp />
          <InfoSection {...homeObjThree}/>
          <Skills/>
          {/* {testData.map((item, idx) => (

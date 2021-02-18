@@ -17,7 +17,7 @@ import {InfoContainer,
 const Resume = ({lightBg, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
     return (
         <>
-        <InfoContainer lightBg={lightBg} >
+        <InfoContainer lightBg={lightBg} id='resume' >
           <InfoWrapper>
             <InfoRow imgStart={imgStart}>
                 <Column1>
