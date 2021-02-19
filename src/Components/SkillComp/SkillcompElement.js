@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
     color: #fff;
     background: #f9f9f9;
+    height: 800px;
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -12,7 +13,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 860px;
+    height: 600px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -58,11 +59,11 @@ export const TextWrapper = styled.div`
 
 export const Img = styled.img`
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 5px 0 50px 0;
     padding-right: 0;
 `;
 export const Heading = styled.h1`
-    color:#010606;
+    color:#773db4;
     font-size: 2.5rem;
     margin: 10px auto 0px auto;
     display: flex;

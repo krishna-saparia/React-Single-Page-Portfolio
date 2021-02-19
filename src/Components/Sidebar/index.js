@@ -18,13 +18,13 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to='projects' onClick={toggle}>
                         .toProjects()
                     </SidebarLink>
-                    <SidebarLink to='sign-up' onClick={toggle}>
-                        .toEducation()
+                    <SidebarLink to='skills' onClick={toggle}>
+                        .toSkills()
                     </SidebarLink>
                 </SidebarMenu>
-                <SidebtnWrap>
+                {/* <SidebtnWrap>
                     <SidebarRoute to = '/signin'>Sign In</SidebarRoute>
-                </SidebtnWrap>
+                </SidebtnWrap> */}
             </SidebarWrapper>
         </SidebarContainer>
     );

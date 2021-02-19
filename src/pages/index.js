@@ -7,7 +7,6 @@ import Services from '../Components/Services';
 import Navbar from '../Components/Navbar';
 import Sidebar from '../Components/Sidebar';
 import Resume from '../Components/ResumeSection';
-import Skills from '../Components/Skills';
 import SkillComp from '../Components/SkillComp'
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,28 +14,16 @@ const Home = () => {
     const toggle = () => {
         setIsOpen(!isOpen);
     }
-
-    // const testData = [
-    //     { bgcolor: "#6a1b9a", completed: 60 },
-    //     { bgcolor: "#00695c", completed: 30 },
-    //     { bgcolor: "#ef6c00", completed: 53 },
-    //   ];
     return (
         <>
          <Sidebar isOpen={isOpen} toggle = {toggle} />   
          <Navbar toggle={toggle}/>
          <HeroSection />
          <InfoSection {...homeObjOne}/>
-         {/* <InfoSection {...homeObjTwo}/> */}
          <Resume/>
-         {/* <InfoSection {...homeObjThree}/> */}
          <Services />
          <SkillComp />
-         <InfoSection {...homeObjThree}/>
-         <Skills/>
-         {/* {testData.map((item, idx) => (
-            <Skillbar key={idx} bgcolor={item.bgcolor} completed={item.completed} />
-      ))} */}
+         {/* <InfoSection {...homeObjThree}/> */}
         </>
     )
 }
