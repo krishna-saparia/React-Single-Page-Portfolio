@@ -10,7 +10,7 @@ export const homeObjOne = {
     lightTextDec: true,
     topLine: "student.webDev()",
     headLine: 'I\'m a Student of computer science ',
-    description: 'Developing Skills for Full Stack Developer, \n With experience of working on ReactJs, Angular and spring boot frameworks; Build Games and AR app using Unity. ',
+    description: 'Engineers of 2021 are undoubtably favored. The internet offers on request data of how to create incredible applications. In any case this wide get to infers about anyone with satisfactory resistance can taught themselves the rough capacities. What sets best engineers isolated really isn\'t competency in open to instruction capacities such as number-crunching or the foremost later standard of specialized drawings. Engineers of these days need to get it a companies honest to goodness needs, knowing which questions to ask and which issues to comprehend. ',
     buttonLabel: 'Click .toResume()',
     imgStart: false,
     img: svg8,
