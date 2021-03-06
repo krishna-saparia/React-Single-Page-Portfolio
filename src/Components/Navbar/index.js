@@ -4,7 +4,8 @@ import React, {useState, useEffect} from 'react';
 import { FaBars } from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import { animatedScroll as scroll } from 'react-scroll';
-import {Nav, NavbarContainer, NavLinks, NavLogo, MobileIcon, NavMenu, NavItem, NavBtn, NavBtnLink} from './NavbarElements';
+import {Nav, NavbarContainer, NavLinks, NavLogo, MobileIcon, NavMenu, NavItem, NavBtn, NavBtnLink, NavLinkIcon, Avatar} from './NavbarElements';
+import a1 from '../../images/a1.png'
 
 const Navbar = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false)
@@ -30,18 +31,22 @@ const Navbar = ({toggle}) => {
         <IconContext.Provider value={{ color: '#fff'}}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>.is()</NavLogo>
+                
+                    <NavLogo to="/" onClick={toggleHome}> <Avatar src = {a1}></Avatar>Krishna.is()</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                        <NavMenu>
+                       <NavItem>
+                                <NavLinkIcon href='https://drive.google.com/file/d/1vL1N_WHi3qS8vAv7ynacovkLcYrK4ppL/view?usp=sharing/' target="_blank" aria-label="Resume">.toResume()</NavLinkIcon>
+                            </NavItem>
                            <NavItem>
                                <NavLinks to='about'
                                smooth={true} duration={500} spy={true} exact='true' offset= {-80}> .about() </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to='resume'
-                                smooth={true} duration={500} spy={true} exact='true' offset= {-80}> .toResume() </NavLinks>
+                                <NavLinks to='education'
+                                smooth={true} duration={500} spy={true} exact='true' offset= {-80}> .toEducation() </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to='projects'
