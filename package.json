@@ -17,8 +17,12 @@
     "react-scroll": "^1.8.1",
     "react-spinners": "^0.10.6",
     "react-svg": "^11.2.3",
+    "react-vertical-timeline-component": "^3.3.3",
     "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "@material-ui/lab": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/core": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
