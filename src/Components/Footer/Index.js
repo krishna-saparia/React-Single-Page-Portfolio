@@ -20,7 +20,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/'>Krishna Saparia</SocialLogo>
-                        <WebsiteRights href='https://drive.google.com/file/d/1vL1N_WHi3qS8vAv7ynacovkLcYrK4ppL/view?usp=sharing/' target="_blank" aria-label="Facebook"> Resume <FaDownload/></WebsiteRights>
+                        <WebsiteRights href='https://drive.google.com/file/d/1-gxvIs8lJkI7Za0pSv6lWnTy_Qg756wZ/view?usp=sharing/' target="_blank" aria-label="Facebook"> Resume <FaDownload/></WebsiteRights>
                         
                         <SocialIcons>
                             <SocialIconLink href='https://www.linkedin.com/in/krishna-s-99b575162/' target="_blank" aria-label="LinkedIn">

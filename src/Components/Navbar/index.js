@@ -38,7 +38,7 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                        <NavMenu>
                        <NavItem>
-                                <NavLinkIcon href='https://drive.google.com/file/d/1vL1N_WHi3qS8vAv7ynacovkLcYrK4ppL/view?usp=sharing/' target="_blank" aria-label="Resume">.toResume()</NavLinkIcon>
+                                <NavLinkIcon href='https://drive.google.com/file/d/1-gxvIs8lJkI7Za0pSv6lWnTy_Qg756wZ/view?usp=sharing/' target="_blank" aria-label="Resume">.toResume()</NavLinkIcon>
                             </NavItem>
                            <NavItem>
                                <NavLinks to='about'
