@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
 import HeroSection from '../Components/HeroSection';
 import InfoSection from '../Components/InfoSection';
-import { homeObjOne, homeObjTwo, homeObjThree} from '../Components/InfoSection/Data';
+import { homeObjOne} from '../Components/InfoSection/Data';
 import Services from '../Components/Services';
 // import { BrowserRouter as Router } from 'react-router-dom'
 import Navbar from '../Components/Navbar';
 import Sidebar from '../Components/Sidebar';
-import Resume from '../Components/ResumeSection';
+// import Resume from '../Components/ResumeSection';
 import SkillComp from '../Components/SkillComp'
 import Footer from '../Components/Footer/Index';
 import Education from '../Components/Education';

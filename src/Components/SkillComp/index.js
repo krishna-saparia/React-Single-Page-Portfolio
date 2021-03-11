@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Doughnut, Polar} from 'react-chartjs-2';
-import { InfoContainer, InfoRow, Heading, InfoWrapper, Column1, TextWrapper, Column2, Column3, ImgWrap, Img } from './SkillcompElement';
+import { InfoContainer, InfoRow, Heading, InfoWrapper, Column1, TextWrapper, Column2} from './SkillcompElement';
 
-import svg3 from '../../images/svg3.svg';
+// import svg3 from '../../images/svg3.svg';
 
 const data1 = {
 	labels: [

@@ -1,5 +1,5 @@
 import React from 'react'
-import {FooterContainer, FooterLinkWrapper, FooterWrap, FooterLinksContainer, FooterLinkItems, FooterLinkTitle, SocialMedia, SocialMediaWrap, SocialIconLink, SocialLogo, WebsiteRights, SocialIcons } from './FooterElement'
+import {FooterContainer, FooterWrap, SocialMedia, SocialMediaWrap, SocialIconLink, SocialLogo, WebsiteRights, SocialIcons } from './FooterElement'
 import {FaLinkedin, FaFacebook, FaGithub, FaInstagram, FaDownload} from 'react-icons/fa';
 
 const Footer = () => {
@@ -7,16 +7,6 @@ const Footer = () => {
         <div>
         <FooterContainer>
             <FooterWrap>
-                {/* <FooterLinksContainer>
-                    <FooterLinkWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle to=''> LinkedIn </FooterLinkTitle>
-                            <FooterLinkTitle to=''> Github </FooterLinkTitle>
-                            <FooterLinkTitle to=''> Instgram </FooterLinkTitle>
-                            <FooterLinkTitle to=''> Facebook </FooterLinkTitle>
-                        </FooterLinkItems>
-                    </FooterLinkWrapper>
-                </FooterLinksContainer> */}
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/'>Krishna Saparia</SocialLogo>

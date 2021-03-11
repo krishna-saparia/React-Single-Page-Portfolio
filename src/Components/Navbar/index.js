@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 import { FaBars } from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import { animatedScroll as scroll } from 'react-scroll';
-import {Nav, NavbarContainer, NavLinks, NavLogo, MobileIcon, NavMenu, NavItem, NavBtn, NavBtnLink, NavLinkIcon, Avatar} from './NavbarElements';
+import {Nav, NavbarContainer, NavLinks, NavLogo, MobileIcon, NavMenu, NavItem, NavLinkIcon, Avatar} from './NavbarElements';
 import a1 from '../../images/a1.png'
 
 const Navbar = ({toggle}) => {

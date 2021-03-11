@@ -13,8 +13,7 @@ import {
     ServicesIcon,
     ServicesH2,
     ServicesH1,
-    ServicesP,
-    bold
+    ServicesP
 } from './ServiceElement';
 const Services = () => {
     return (

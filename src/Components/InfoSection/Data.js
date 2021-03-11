@@ -1,7 +1,6 @@
 import svg8 from '../../images/svg8.svg';
 import svg10 from '../../images/svg10.svg';
 import svg3 from '../../images/svg3.svg';
-import svg4 from '../../images/svg4.svg';
 
 export const homeObjOne = {
     id: 'about',
