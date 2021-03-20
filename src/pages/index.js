@@ -9,7 +9,7 @@ import Sidebar from '../Components/Sidebar';
 // import Resume from '../Components/ResumeSection';
 import SkillComp from '../Components/SkillComp'
 import Footer from '../Components/Footer/Index';
-import Education from '../Components/Education';
+// import Education from '../Components/Education';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ const Home = () => {
          <HeroSection />
          <InfoSection {...homeObjOne}/>
          {/* <Resume/> */}
-         <Education />
+         {/* <Education /> */}
          <Services />
          <SkillComp />
          <Footer />
