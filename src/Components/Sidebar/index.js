@@ -13,9 +13,9 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to='about' onClick={toggle}>
                         .about()
                     </SidebarLink>
-                    <SidebarLink to='education' onClick={toggle}>
+                    {/* <SidebarLink to='education' onClick={toggle}>
                         .toEducation()
-                    </SidebarLink>
+                    </SidebarLink> */}
                     <SidebarLink to='projects' onClick={toggle}>
                         .toProjects()
                     </SidebarLink>
