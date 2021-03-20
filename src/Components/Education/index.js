@@ -10,8 +10,13 @@ import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import SchoolIcon from '@material-ui/icons/School';
 // import LaptopMacIcon from '@material-ui/icons/LaptopMac';
+<<<<<<< HEAD
 import Paper from '@material-ui/core/Paper';
 // import Typography from '@material-ui/core/Typography';
+=======
+import { Paper } from '@material-ui/core';
+import Typography from '@material-ui/core/Typography';
+>>>>>>> 14418b86c0cab99527655fc2371b9952732114cb
 
 const useStyles = makeStyles((theme) => ({
   paper: {
